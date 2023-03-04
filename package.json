@@ -1,0 +1,17 @@
+{
+  "name": "nodejstelegrambot",
+  "version": "1.0.0",
+  "description": "Test Telegram Bot on NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.61.0",
+    "nodemon": "^2.0.21"
+  }
+}
